@@ -1,0 +1,27 @@
+http://localhost:5000/posts
+
+{
+    "postHeader": "Test",
+    "postBody": "Test"
+}
+
+http://localhost:5000/covid
+
+{
+    "local_new_cases": 10,
+    "local_total_cases":10,
+    "local_total_number_of_individuals_in_hospitals":10,
+    "local_deaths":10,
+    "local_new_deaths":10,
+    "local_recovered":10,
+    "local_active_cases":10,
+    "total_pcr_testing_count":10
+}
+
+"start": "set NODE_ENV=development && nodemon index.js",
+    "start-prod": "set NODE_ENV=production && nodemon index.js"
+
+    "engines": {
+    "node": "14.17.6"
+  }
+
